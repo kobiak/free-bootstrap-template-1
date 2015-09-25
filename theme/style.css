@@ -1,0 +1,117 @@
+/* 	HTML5 Free Template #1
+	Developer and designed by EvgenyK: http://evgenyk.nz
+	Licence: free to use under CC BY SA http://creativecommons.org/licenses/by-sa/3.0/nz
+*/
+
+html, body {
+	height: 100%;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin:1em 0 2em 0 !Important;
+	display: inline-block !important;
+	border-bottom:2px solid #222222;
+	padding: 0 0.2em;
+}
+section {
+	position:relative;
+}
+.navbar-default.navbar-custom {
+	background:#ffffff;
+}
+.carousel {
+	height: 50%;
+}
+#myCarousel h2 {border:none; margin:0px 0 0.4em 0 !important; padding:0px !important; }
+.item, .active, .carousel-inner {
+	height: 100%;
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+#full-article, #four-columns, #contact-us, #footer {
+	padding:3em 0;
+}
+#four-columns {
+	background:#f0f0f0;
+}
+#footer {
+	background:#383b43;
+	color:#f0f0f0;
+}
+.top-margin {
+	margin:2em 0 0 0;
+}
+.links {
+	padding:0 0 2em 0px;
+	border-bottom:1px solid rgba(144, 144, 144, 0.25);
+}
+.links ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.links ul li {
+	margin:0.5em 0;
+}
+.links a {
+	color:#cdced0;
+}
+.links a:hover {
+	color:#cdced0;
+	text-decoration:underline;
+}
+.bottom-links {
+	padding:2em 0 0 0;
+	color:#858585;
+}
+#footer a.icon {
+	color: #ffffff;
+	font-size: 0.7em;
+	height: 4em;
+	line-height: 4em;
+	width: 4em;
+	cursor: pointer;
+}
+#footer a.icon i {font-size:2em; line-height:2em;}
+.icons { list-style:none;}
+.icons li {display:inline-block;}
+.icon > .label {
+  display: none;
+}
+.icon.rounded {
+	background-color: #383b43;
+	border-radius: 100%;
+	color: #ffffff;
+	display: inline-block;
+	height: 3.25em;
+	line-height: 3.25em;
+	text-align: center;
+	width: 3.25em;
+}
+.icon.rounded.twitter {
+	background-color: #222222;
+}
+.icon.rounded.google-plus {
+	background-color: #222222;
+}
+.icon.rounded.facebook {
+	background-color: #222222;
+}
+.icon.rounded.linkedin {
+	background-color: #222222;
+}
+.icon-big {font-size:10em;}
+.icon-contact-us {font-size:1.5em;}
+
+	@media only screen and (max-width : 768px){
+		.mm-bottom {margin-bottom:15px;}
+ 
+	}
+
